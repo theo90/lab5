@@ -123,5 +123,5 @@ void statistic (colloid *const c,int *rx, int *ry, const int N, double & meanx, 
     var2+=pow((c[i].y-meany),2);
   }
   var=var1+var2;
-    
+ //var=pow(pow(var1,2)+pow(var2,2),0.5);   
 }
